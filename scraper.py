@@ -25,7 +25,7 @@ def scraper():
 
     driver = webdriver.Chrome()
     
-    while i < 101:
+    while i < len(countires):
         if j == 1:
             start_time = time.time()
 
